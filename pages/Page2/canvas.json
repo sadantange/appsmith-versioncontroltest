@@ -133,9 +133,6 @@
                           "key": "childStylesheet.editActions.discardBorderRadius"
                         },
                         {
-                          "key": "tableData"
-                        },
-                        {
                           "key": "primaryColumns.id.computedValue"
                         },
                         {
@@ -155,6 +152,9 @@
                         },
                         {
                           "key": "primaryColumns.updated_at.computedValue"
+                        },
+                        {
+                          "key": "tableData"
                         }
                       ],
                       "leftColumn": 7,
@@ -400,7 +400,7 @@
                       "rightColumn": 59,
                       "textSize": "0.875rem",
                       "widgetId": "tts6gjugi2",
-                      "tableData": "{{get_data_api.data}}",
+                      "tableData": "{{utils.get_data()}}",
                       "label": "Data",
                       "searchKey": "",
                       "parentId": "isci0gqi2s",

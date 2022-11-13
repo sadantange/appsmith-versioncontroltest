@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Page2",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tget_data: () => {\n\t\tif(appsmith.store.jwt){\n\t\t\treturn get_data_api.data\n\t\t} \n\t},\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Page2_utils",
+  "deleted": false,
+  "gitSyncId": "636b35678f12af63a43d6e67_637078f2cd4c472780b63522"
+}
