@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tLoginFunc: () => {\n\t\tstoreValue('jwt', login_api.data.jwt)\n\t\tnavigateTo('Page2', {})\n\t},\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Page1_utils",
+  "deleted": false,
+  "gitSyncId": "636b35678f12af63a43d6e67_63707612cd4c472780b6350d"
+}
